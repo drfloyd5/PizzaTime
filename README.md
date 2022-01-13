@@ -20,8 +20,9 @@ A small two or 3 page app for ordering pizzas.
 
 ## Contributing Instructions
 1. Clone the repo.
-2. Share a minium your IDE in the meeting.
-3. Raise a pull request with your changes.
+2. Make a branch.
+3. Share your desktop in the meeting.
+4. Raise a pull request with your changes.
 
 ## Interview Expectations
 1. The development environment may be setup before the interview.
