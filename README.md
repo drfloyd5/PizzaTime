@@ -45,7 +45,7 @@ A small two or 3 page app for ordering pizzas.
 7.  Database access should be done with Entity Framework.
    1.  Using EF Core In-Memory Database Provider is fine. Optionally, The data may be persisted to any backing database EF can work with.
    2.  In any case reference data should be present at app start.
-8.  ??? Google Material ???
+8. Feel free to use google or the rest of the internet.
 9.  The visual aesthetic of the website is of minor importance. However:
    3. The overall look should be consistent.
    4. Form labels and controls should be reasonably placed.
@@ -57,6 +57,7 @@ A small restaurant named Pizza Time! is growing fast. They now require an app fo
 Pizza Time! approached our sales department for a solution. We don't currently sell a product Pizza Time! can use. But the sales people sold them a promise. The president of our company has asked us to go ahead and produce a solution. Pizza Time! is patient as long as they regularly see progress.
 
 ## Business Requirements
+Special Note: The requirements where gathered by the sales people. They did their best.
 
 ### Topping Management
 * Pizza Time needs a way to manage what pizza toppings they can use. Pizza Time! is only concerned with the name, availability to order, and the customer price of a topping.
