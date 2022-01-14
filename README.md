@@ -1,15 +1,24 @@
 # PizzaTime
-Small app to take pizza orders.
+_A small app to take pizza orders._
+
+## Hello
+Thank you for applying to our position. Choosing to work together is a two way street and neither of us need to waste time with a bad fit. This project is meant to get a sense of your development style; what kinds of questions you ask; What assumptions you make; and how well do we communicate. Of course your skills are also being evaluated. In turn, you get to evaluate us.
+
+We are developers, we get it.
+
+This is our first time using a coding exercise during our interview process. I will greatly appreciate any feedback you share about the process.
 
 ## Description
-
 A small two or 3 page app for ordering pizzas.
 
 - [PizzaTime](#pizzatime)
+  - [Hello](#hello)
   - [Description](#description)
   - [Contributing Instructions](#contributing-instructions)
+    - [Before Interview](#before-interview)
+    - [During Interview](#during-interview)
   - [Interview Expectations](#interview-expectations)
-  - [Skillset Requirements](#skillset-requirements)
+  - [Skill Set Requirements](#skill-set-requirements)
   - [Scenario](#scenario)
   - [Business Requirements](#business-requirements)
     - [Topping Management](#topping-management)
@@ -19,10 +28,17 @@ A small two or 3 page app for ordering pizzas.
   - [High Priority Deliverables](#high-priority-deliverables)
 
 ## Contributing Instructions
-1. Clone the repo.
-2. Make a branch.
-3. Share your desktop in the meeting.
-4. Raise a pull request with your changes.
+
+### Before Interview
+
+1. Setup Development environment.
+2. Clone the repo. 
+4. Make a branch. Please include your name, job id*, and candidate id*, and whatever other text you like. (*if you know them.)
+
+### During Interview
+3. Share your desktop.
+4. Code Solution.
+5. Push branch.
 
 ## Interview Expectations
 1. The development environment may be setup before the interview.
@@ -31,11 +47,16 @@ A small two or 3 page app for ordering pizzas.
 4. We will stay out of your way and not ask a bunch of question. Unless we think you are misunderstanding a requirement or are otherwise going a completely wrong direction.
 5. Ask as many questions as you like.
 6. A completed product is not required, but we should be able to tell what direction you are going and be able to extrapolate the rest of your approach.
-7. Don't worry about making mistakes. It happens, we all know that. What is important is what is in the pull request.
-8. We are not going to 100% watch you code the entire time. Unfortunately, we have other work we must also attend to. But we will keep the meeting window open on the 2nd monitor.
-9. The Pizza Time! owner can be requested to join the meeting. (The part of the Pizza Time! owner will be played by one of the interviewers.)
+7. We don't expect 100% production quality code. However please add TODO comments that you feel would be necessary for production quality code. Example:
+```csharp
+var f = File.ReadAllText("c:\\temp\\data.txt"); // TODO: catch exceptions and return default values. 
+                                                // TODO: Remove hard coded filename.
+```
+8. Don't worry about making mistakes. It happens, we all know that. What is important is what is in the pull request.
+9. We are not going to 100% watch you code the entire time. Unfortunately, we have other work we must also attend to. But we will keep the meeting window open on the 2nd monitor.
+10. The Pizza Time! owner can be requested to join the meeting. (The part of the Pizza Time! owner will be played by one of the interviewers.)
 
-## Skillset Requirements
+## Skill Set Requirements
 1. Feel free to make assumptions about gaps in the requirements. If you do, please make a small note of your assumption. This will help us refine the project requirements.
 2. Visual Studio or Visual Studio Code may be used.
 3. IDE extensions are fine.
@@ -54,10 +75,12 @@ A small two or 3 page app for ordering pizzas.
 
 A small restaurant named Pizza Time! is growing fast. They now require an app for employees to take orders over the phone. The restaurant is famous for their pizza crust, so they only use one kind of dough and only sell one size of pizza. Pizza Time! also takes pride in using locally sourced toppings. Sometimes a topping is unavailable for the day because of supply issues. However sometimes a special toping is available for a day, based on what the owner finds at the market.
 
-Pizza Time! approached our sales department for a solution. We don't currently sell a product Pizza Time! can use. But the sales people sold them a promise. The president of our company has asked us to go ahead and produce a solution. Pizza Time! is patient as long as they regularly see progress.
+Pizza Time! approached our department for a solution. We don't currently have a product Pizza Time! can use. The department lead feels this is an opportunity for the company to push into a new market. Pizza Time! pays for the development of a product that we can license to other small businesses.
+
+Pizza Time! is eager to start using our app and demand a solid delivery date. Our department lead has negotiated a flexible delivery schedule in exchange for keeping them informed of our progress.
 
 ## Business Requirements
-Special Note: The requirements where gathered by the sales people. They did their best.
+Special Note: These requirements were gathered by non-technical people.
 
 ### Topping Management
 * Pizza Time needs a way to manage what pizza toppings they can use. Pizza Time! is only concerned with the name, availability to order, and the customer price of a topping.
@@ -94,7 +117,7 @@ Special Note: The requirements where gathered by the sales people. They did thei
 * A standard keyboard is always used. One of the 3 order taking stations uses a touchscreen with a standard keyboard. Pizza Time! has plenty of mice.
 
 ## High Priority Deliverables
-1. Before the project can get started our company must give PizzaTime! some idea of what they are buying. A verbal description of the UI is acceptable.
+1. Before the project can get started our company must give PizzaTime! some idea of what they are buying. A verbal description of the UI is acceptable. A picture of a hand drawn sketch is also fine.
 2. Our boss wants to know when we can start the next project. He would like an estimate with plus or minus 25% accuracy for this product. He understands that it is impossible to estimate projects with 100% accuracy.
 
 
