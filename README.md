@@ -8,11 +8,16 @@ We are developers, we get it.
 
 This is our first time using a coding exercise during our interview process. I will greatly appreciate any feedback you share about the process.
 
+## Special Note
+
+We are aware the interview duration is too short to accomplish the project. Please feel
+
 ## Description
 A small two or 3 page app for ordering pizzas.
 
 - [PizzaTime](#pizzatime)
   - [Hello](#hello)
+  - [Special Note](#special-note)
   - [Description](#description)
   - [Contributing Instructions](#contributing-instructions)
     - [Before Interview](#before-interview)
@@ -34,42 +39,42 @@ A small two or 3 page app for ordering pizzas.
 1. Setup Development environment.
 2. Clone the repo. 
 4. Make a branch. Please include your name, job id*, and candidate id*, and whatever other text you like. (*if you know them.)
-
-### During Interview
-3. Share your desktop.
-4. Code Solution.
+5. Code Solution.
 5. Push branch.
 
+### During Interview
+1. Share desktop.
+2. We will have a conversation about your code.
+3. An additional requirement will be raised during the review. Some coding will be expected.
+
 ## Interview Expectations
-1. The development environment may be setup before the interview.
-2. We are looking at your competence, coding style, how your thought process works. 
-3. You may prepare as you see fit. However, we want to see you code. Please do not write a solution and then copy it by hand during the interview.
-4. We will stay out of your way and not ask a bunch of question. Unless we think you are misunderstanding a requirement or are otherwise going a completely wrong direction.
-5. Ask as many questions as you like.
-6. A completed product is not required, but we should be able to tell what direction you are going and be able to extrapolate the rest of your approach.
-7. We don't expect 100% production quality code. However please add TODO comments that you feel would be necessary for production quality code. Example:
+
+1. We are looking at your competence, coding style, how your thought process works.
+2. When we as for more coding, we will stay out of your way and not ask a bunch of question. Unless we think you are misunderstanding a requirement or are otherwise going a completely wrong direction.
+3. Ask as many questions as you like.
+4. A completed product is not required, but we should be able to tell what direction you are going and be able to extrapolate the rest of your approach.
+5. We don't expect 100% production quality code. However please add TODO comments that you feel would be necessary for production quality code. Example:
 ```csharp
 var f = File.ReadAllText("c:\\temp\\data.txt"); // TODO: catch exceptions and return default values. 
                                                 // TODO: Remove hard coded filename.
 ```
 8. Don't worry about making mistakes. It happens, we all know that. What is important is what is in the pull request.
 9. We are not going to 100% watch you code the entire time. Unfortunately, we have other work we must also attend to. But we will keep the meeting window open on the 2nd monitor.
-10. The Pizza Time! owner can be requested to join the meeting. (The part of the Pizza Time! owner will be played by one of the interviewers.)
 
 ## Skill Set Requirements
+
 1. Feel free to make assumptions about gaps in the requirements. If you do, please make a small note of your assumption. This will help us refine the project requirements.
-2. Visual Studio or Visual Studio Code may be used.
-3. IDE extensions are fine.
-4. Googling is fine.
-5. Backend coded in .NET 5 or 6
-6. Front end coded with Angular 11
-7.  Database access should be done with Entity Framework.
-   1.  Using EF Core In-Memory Database Provider is fine. Optionally, The data may be persisted to any backing database EF can work with.
-   2.  In any case reference data should be present at app start.
+2. Visual Studio or Visual Studio Code may be used. IDE extensions are fine.
+5. Backend coded in .NET 5+
+6. Front end coded with Angular 11+
+7. Database access should be done with Entity Framework.
+   1. Using EF Core In-Memory Database Provider is fine. Optionally, The data may be persisted to any backing database EF can work with.
+   2. In any case reference data should be present at app start.
 8. Feel free to use google or the rest of the internet.
-9.  The visual aesthetic of the website is of minor importance. However:
-   3. The overall look should be consistent.
-   4. Form labels and controls should be reasonably placed.
+9.  The visual aesthetic of the website is expected to be minimal.
+   1. The overall look should be consistent.
+   2. Form labels and controls should be reasonably placed.
+   
   
 ## Scenario
 
